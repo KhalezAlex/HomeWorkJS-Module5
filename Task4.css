@@ -1,0 +1,78 @@
+.container {
+  width: 780px;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  background-color: bisque;
+}
+.showcase {
+  display: flex;
+  width: 450px;
+}
+.item {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 135px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 4px;
+}
+.bookName {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.author {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-size: x-small;
+}
+.price {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+  font-size: larger;
+  font-weight: bolder;
+}
+.button {
+  font-size: 12px;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+}
+.orderDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.buyButton {
+  font-size: 12px;
+  width: 100%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  border-right-color: rgba(0, 0, 0, 0.8);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}

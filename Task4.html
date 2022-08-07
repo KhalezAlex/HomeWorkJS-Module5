@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Task4.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="showcase" id="showcase"></div>
+      <div class="order" id="order">
+        <div class="orderDetail">
+          <span>Book:</span>
+          <input type="text" id="bookName" disabled />
+        </div>
+        <div class="orderDetail">
+          <span>Quantity:</span>
+          <input type="text" />
+        </div>
+        <div class="orderDetail">
+          <span>Name:</span>
+          <input type="text" id="customer" />
+        </div>
+        <div class="orderDetail">
+          <span>Delivery adress:</span>
+          <textarea name="" id="delAdress" cols="20" rows="4"></textarea>
+        </div>
+        <div class="orderDetail">
+          <span>Delivery date:</span>
+          <input type="text" id="delDate" />
+        </div>
+        <div class="orderDetail">
+          <span>Comment</span>
+          <textarea name="" id="orderComment" cols="20" rows="4"></textarea>
+        </div>
+        <input type="button" value="Buy" class="buyButton" id="buyButton" />
+      </div>
+    </div>
+
+    <div id="message" class="modal">
+      <div class="modal-content">
+        <p id="hello"></p>
+        <p id="orderDetails"></p>
+        <p id="comment"></p>
+        <input type="button" value="close" name="" id="close" />
+      </div>
+    </div>
+    <script src="Task4.js"></script>
+  </body>
+</html>
