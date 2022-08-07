@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Task5.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="inputGroup">
+        <label for="groupSelect">Группа:</label>
+        <select name="groupSelect" id="groupSelect" class="select"></select>
+        <label for="lessonSelect">Урок:</label>
+        <select name="lessonSelect" id="lessonSelect" class="select"></select>
+        <input type="button" value="Select" onclick="setLesson()" />
+      </div>
+    </div>
+    <div class="container" id="lessonsInfo" hidden>
+      <label for="lessonDone">Урок:</label>
+      <select name="lessonDone" id="lessonDone" class="select"></select>
+      <input type="button" value="Показать информацию" onclick="showInfo()" />
+    </div>
+    <script src="Task5.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+td {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-color: rgb(rgb(71, 70, 70));
+}
+.container {
+  width: 400px;
+  background-color: bisque;
+  margin: auto;
+  padding: 10px;
+}
+.select {
+  width: 120px;
+}
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: rgba(56, 55, 55, 0.5);
+  padding-bottom: 8px;
+}
+.button {
+  width: 100%;
+  margin-top: 10px;
+}
