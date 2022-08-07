@@ -1,0 +1,58 @@
+.container {
+  width: 800px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  background-color: beige;
+}
+.board {
+  margin: 10px;
+}
+.post {
+  box-shadow: inset;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(88, 88, 88);
+  box-shadow: inset 0.1px 0.1px 0.2px 0.2px rgb(88, 88, 88);
+  margin-bottom: 10px;
+}
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+}
+.postText {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.inputForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameInput {
+  width: 100%;
+  display: flex;
+}
+.messageInput {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+}
+input {
+  margin-left: 15px;
+  width: 84.5%;
+}
+.textAreaMessage {
+  resize: none;
+}
+.button {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+}

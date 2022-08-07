@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Task3.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="inputs">
+        <input type="radio" name="bold" />
+        <label for="bold">Bold</label>
+        <input type="radio" name="underline" />
+        <label for="underline">Underline</label>
+        <input type="radio" name="italics" />
+        <label for="italics">Italics</label>
+        <input type="radio" name="text-align" id="left" />
+        <label for="text-align">Left</label>
+        <input type="radio" name="text-align" id="right" />
+        <label for="text-align">Right</label>
+        <input type="radio" name="text-align" id="justify" />
+        <label for="text-align">Justify</label>
+      </div>
+      <textarea
+        name=""
+        id="textArea"
+        cols="30"
+        rows="10"
+        class="textArea"
+      ></textarea>
+      <input
+        type="button"
+        id="button"
+        value="Show text"
+        onclick="styleText()"
+      />
+    </div>
+
+    <script src="Task3.js"></script>
+  </body>
+</html>

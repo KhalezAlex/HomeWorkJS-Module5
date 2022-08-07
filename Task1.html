@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Task1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="board" id="board">
+        <div class="post">
+          <div class="postHeader">
+            <span class="postName" id="postName">Name</span>
+            <span class="postDate" id="postDate">10:05:00 22.03.2018</span>
+          </div>
+          <div class="postText">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptas, doloremque. Nemo modi eum iste! Obcaecati dicta porro
+              excepturi distinctio qui explicabo eos sunt, nulla est accusamus
+              aspernatur consectetur incidunt odit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="inputForm">
+        <span><b>Add new message:</b></span>
+        <div class="nameInput">
+          <span><b>Your Name:</b></span>
+          <input type="text" class="inputName" id="inputName" />
+        </div>
+        <div class="messageInput">
+          <p><b>Your message:</b></p>
+          <textarea
+            name=""
+            id="textAreaMessage"
+            cols="90"
+            rows="1"
+            class="textAreaMessage"
+          ></textarea>
+        </div>
+        <button class="button" id="button" onclick="addPost()">Send</button>
+      </div>
+    </div>
+    <script src="Task1.js"></script>
+  </body>
+</html>

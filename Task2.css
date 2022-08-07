@@ -1,0 +1,9 @@
+.quiz {
+  width: 300px;
+  margin: auto;
+  background-color: bisque;
+}
+.answers {
+  display: flex;
+  flex-direction: column;
+}

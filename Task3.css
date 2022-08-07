@@ -1,0 +1,17 @@
+.container {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: bisque;
+}
+.inputs {
+  width: 95%;
+}
+.textArea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  resize: none;
+}
