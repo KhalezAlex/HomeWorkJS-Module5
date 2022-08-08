@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Task6.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+        <div class="inputGroup">
+            <label for="route">Маршрут:</label>
+            <select name="route" id="route" class="select"></select>
+            <label for="date">Дата:</label>
+            <input name="date" id="date" class="select"></input>
+            <input type="button" value="Select" onclick="showCarriage()" />
+          </div>
+    </div>
+
+    <div id="message" class="modal">
+      <div class="modal-content">
+        <p>Ваши билеты:</p>
+        <table id="orderedTickets"></table>
+        <input type="button" value="close" name="" id="close" />
+      </div>
+    </div>
+    <script src="Task6.js"></script>
+  </body>
+</html>
