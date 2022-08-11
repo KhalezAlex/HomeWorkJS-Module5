@@ -14,15 +14,15 @@
             <select name="route" id="route" class="select"></select>
             <label for="date">Дата:</label>
             <input name="date" id="date" class="select"></input>
-            <input type="button" value="Select" onclick="showCarriage()" />
+            <input type="button" value="Select" onclick="drawCarriage()" />
           </div>
     </div>
 
     <div id="message" class="modal">
-      <div class="modal-content">
-        <p>Ваши билеты:</p>
-        <table id="orderedTickets"></table>
-        <input type="button" value="close" name="" id="close" />
+      <div class="modal-content" id="modal-content">
+        <span>Ваши билеты:</span>
+        <!-- <table id="orderedTickets"></table>
+        <input type="button" value="close" name="" id="close" /> -->
       </div>
     </div>
     <script src="Task6.js"></script>
